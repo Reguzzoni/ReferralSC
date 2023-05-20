@@ -1,8 +1,5 @@
-# CoinVertible EUR
+# Referral Smart Contract
 
-# ================
-
-#
 
 ## COMMANDS
 
@@ -12,12 +9,10 @@ ganache-cli -b
 
 ### DEPLOY
 
-npx hardhat run .\scripts\deploy\1_deployEscrow.ts --network ganache
+npx hardhat run .\scripts\deploy\1_deployReferralContract.ts --network ganache
 
 ### TEST
 
 #### SMART COIN
 
-npx hardhat test .\test\smartcoin\1_smartCoinTest.ts
-
-# ================
+npx hardhat test .\test\referral\1_referralTest.ts
